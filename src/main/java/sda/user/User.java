@@ -11,7 +11,7 @@ public class User {
     public User(String email,
                 String password) {
         this.email = Objects.requireNonNull(email, "Email should be defined");
-        this.password = Objects.requireNonNull(password, "Password should be defined");;
+        this.password = Objects.requireNonNull(password, "Password should be defined");
     }
 
     public Integer getId() {

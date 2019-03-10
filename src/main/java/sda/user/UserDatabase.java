@@ -17,9 +17,9 @@ public class UserDatabase {
         return user;
     }
 
-    public boolean containsLogin(String login) {
+    public boolean containsEmail(String email) {
         for (User user : users) {
-            if (user.getEmail().equals(login)) {
+            if (user.getEmail().equals(email)) {
                 return true;
             }
         }
