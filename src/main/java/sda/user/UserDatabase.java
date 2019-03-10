@@ -8,7 +8,7 @@ public class UserDatabase {
     private Set<User> users = new HashSet<>();
 
     //Symulacja autogeneracji rosnących identyfikatorów dla nowych użytkowników.
-    private static int id = 0;
+    private int id = 0;
 
     public User add(User user) {
         user.setId(++id);
